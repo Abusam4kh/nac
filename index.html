@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مركز نور العطاء</title>
+    <style>
+        @font-face {
+            font-family: 'Seemo';
+            src: url('seemo.ttf') format('truetype');
+        }
+        
+        body {
+            font-family: 'Seemo', sans-serif;
+            background-color: #FFFFFF; /* خلفية بيضاء */
+            margin: 0;
+            padding: 0;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .header img {
+            width: 100px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        .center-text {
+            text-align: center;
+        }
+        
+        .title {
+            font-size: 24px;
+            color: #15A1B1; /* لون العنوان (أخضر) */
+            margin-bottom: 5px;
+        }
+        
+        .subtitle {
+            font-size: 18px;
+            color: #555;
+        }
+
+        .sections-title {
+            margin-top: 30px;
+            color: #15A1B1; /* لون العنوان (أخضر) */
+        }
+        
+        .sections {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px auto;
+            max-width: 600px;
+        }
+        
+        .sections li {
+            background-color: #EE0064; /* خلفية وردية للأقسام */
+            color: #FFFFFF; /* نص أبيض */
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        
+        .social-icons {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .social-icons a img {
+            width: 60px; /* حجم مكبر للأيقونات */
+            margin: 0 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .contact-designer {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        .contact-designer img {
+            width: 60px;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .contact-designer img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="logo.png" alt="شعار المركز">
+        <div class="center-text">
+            <div class="title">مركز نور العطاء</div>
+            <div class="subtitle">للعلاج الطبيعي والتأهيل الحركي</div>
+        </div>
+    </div>
+
+    <div class="social-icons">
+        <a href="https://www.facebook.com/profile.php?id=100071831438194&mibextid=JRoKGi" target="_blank"><img src="facebook_icon.png" alt="Facebook"></a>
+        <a href="https://wa.me/message/R5EPABWLRJLRP1" target="_blank"><img src="whatsapp_icon.png" alt="WhatsApp"></a>
+        <a href="https://maps.app.goo.gl/NtRm2dyh1tDySvnZ8" target="_blank"><img src="location_icon.png" alt="Location"></a>
+        <a href="tel:+967774062869"><img src="call_icon.png" alt="اتصال"></a>
+    </div>
+
+    <div class="center-text">
+        <h3 class="sections-title">أقسام المركز</h3>
+    </div>
+    <ul class="sections">
+        <li>قسم العلاج الطبيعي (كبار - أطفال)</li>
+        <li>قسم العلاج الوظيفي</li>
+        <li>قسم النطق</li>
+        <li>قسم التركيز</li>
+    </ul>
+
+    <a href="https://wa.me/message/IWHY67LGFDZHA1" class="contact-designer" target="_blank">
+        <img src="designer_contact_icon.png" alt="تواصل مع المصمم">
+    </a>
+</body>
+</html>
